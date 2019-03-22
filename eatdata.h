@@ -24,14 +24,15 @@ public:
     printf("1: %s\n2: %s\n\n",buffer,((this)->priv_string));
   }
   
-  void setNumber() {
+  void setNumber(int x) {
     // sets number
+    (this)->number = x;
   }
   
   void initr() {
     for (int i=0; i<=2047; i++) {
       // print rotating star
-      this->string[i] = '\0';
+      this->priv_string[i] = '\0';
     }
     // acquire() string
     (this)->acquire_init_string_from_user();
