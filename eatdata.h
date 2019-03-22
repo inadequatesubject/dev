@@ -52,4 +52,7 @@ public:
     // seed random number generator first
   }  // scramble string with algo
 
+  SecureObject() {
+    this->initr(); 
+  }
 };
