@@ -18,7 +18,7 @@ public:
     scanf("%s", buffer);
     
     printf("\nACQUIRED: %s\n\n", buffer);
-    strncpy(buffer,((this)->priv_string),2048);
+    strncpy((this)->priv_string),buffer,2048);
     
     // debugging output
     printf("1: %s\n2: %s\n\n",buffer,((this)->priv_string));
@@ -52,4 +52,7 @@ public:
     // seed random number generator first
   }  // scramble string with algo
 
+  SecureObject() {
+    this->initr(); 
+  }
 };
