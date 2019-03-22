@@ -7,7 +7,6 @@ class SecureObject {
 
 private:
   int secure_number;  // number of security index
-  void scramble();  // scramble with algo
   char string[2048];  // string to scramble
   
 public:
@@ -26,5 +25,9 @@ public:
   int getNumber() {
   
   }
+  
+  void scramble() {
+    
+  }  // scramble with algo
 
 };
