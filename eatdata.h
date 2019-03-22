@@ -26,7 +26,7 @@ public:
   
   void setNumber(int x) {
     // sets number
-    (this)->number = x;
+    (this)->secure_number = x;
   }
   
   void initr() {
