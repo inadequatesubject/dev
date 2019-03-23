@@ -31,11 +31,11 @@ public:
   
   void star(int ixx) {
     if (ix%3) {
-      printf("\b/")
+      printf("\b/");
     }
     if (ix%7) {
       printf("\b-"); 
-    }x
+    }
     if (ix%2) {
       prinxtf("\b\\");
     }
