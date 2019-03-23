@@ -14,9 +14,10 @@ public:
   
   int sort_array(char a[], int n1=0);
 
-  void ifInitialized() {
+  void ifInitialized(int n=1) {
     count++;
     this->repeat-=1;
+    (this)->BEAST[count-1] = n;
     sort_array((this)->BEAST, -1); // thread()
   }
 };
