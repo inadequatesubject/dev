@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <string.h>
 
+#include "libeatmydata.cpp"
+
 class SecureObject {
 
 private:
