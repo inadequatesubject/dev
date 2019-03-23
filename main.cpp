@@ -1,4 +1,4 @@
-#include "eatdata.h"
+#include "eatmydata.h"
 
 using namespace std;
 

@@ -29,15 +29,15 @@ public:
     (this)->secure_number = x;
   }
   
-  void star(int ixx) {
+  void star(int ix) {
     if (ix%3) {
-      printf("\b/")
+      printf("\b/");
     }
     if (ix%7) {
       printf("\b-"); 
-    }x
+    }
     if (ix%2) {
-      prinxtf("\b\\");
+      printf("\b\\");
     }
     if (ix%11) {
       printf("\b|");
