@@ -29,9 +29,24 @@ public:
     (this)->secure_number = x;
   }
   
+  void star(int ixx) {
+    if (ix%3) {
+      printf("\b/")
+    }
+    if (ix%7) {
+      printf("\b-"); 
+    }x
+    if (ix%2) {
+      prinxtf("\b\\");
+    }
+    if (ix%11) {
+      printf("\b|");
+    }
+  }
+  
   void initr() {
     for (int i=0; i<=2047; i++) {
-      // print rotating star
+      this->star(i);
       this->priv_string[i] = '\0';
     }
     // acquire() string
